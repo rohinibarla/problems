@@ -6,18 +6,18 @@ def exists():
     """q1.py exists"""
     check50.exists("q1.py")
     check50.include("../../q1/1.in", "../../q1/1.out")
-    check50.include("../../q1/1.in", "../../q1/1.out")
+    check50.include("../../q1/2.in", "../../q1/2.out")
 
 @check50.check(exists)
-def q1_2():
+def q1_1():
     """q1_1"""
     test_input_output("1.in", "1.out")
 
 
 @check50.check(exists)
-def q1_1():
+def q1_2():
     """q1_2"""
-    test_input_output("1.in", "1.out")
+    test_input_output("2.in", "2.out")
 
 
 # Helpers

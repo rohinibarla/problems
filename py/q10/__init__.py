@@ -9,15 +9,15 @@ def exists():
     check50.include("../../q10/1.in", "../../q10/1.out")
 
 @check50.check(exists)
-def q10_2():
+def q10_1():
     """q10_1"""
     test_input_output("1.in", "1.out")
 
 
 @check50.check(exists)
-def q10_1():
+def q10_2():
     """q10_2"""
-    test_input_output("1.in", "1.out")
+    test_input_output("2.in", "2.out")
 
 
 # Helpers

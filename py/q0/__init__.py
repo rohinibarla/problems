@@ -17,7 +17,7 @@ def q0_2():
 @check50.check(exists)
 def q0_1():
     """q0_2"""
-    test_input_output("1.in", "1.out")
+    test_input_output("2.in", "2.out")
 
 
 # Helpers
