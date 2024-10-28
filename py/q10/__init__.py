@@ -6,7 +6,7 @@ def exists():
     """q10.py exists"""
     check50.exists("q10.py")
     check50.include("../../q10/1.in", "../../q10/1.out")
-    check50.include("../../q10/1.in", "../../q10/1.out")
+    check50.include("../../q10/2.in", "../../q10/2.out")
 
 @check50.check(exists)
 def q10_1():
